@@ -1,0 +1,176 @@
+@font-face {
+  font-family: 'LemonMilk';
+  src: local('LemonMilk'), url('resources/fonts/LemonMilk.otf');
+}
+
+html {
+  background-color: #2C2F33;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body {
+
+  opacity: 0;
+  transition: opacity 0.5s;
+  -webkit-transition: opacity 0.5s;
+  font-family: 'Helvetica';
+  /*background-color: #2C2F33;*/
+  color: rgb(200, 200, 200);
+  display:flex;
+  flex-direction:column;
+}
+
+.genericDiv {
+	height: 50%;
+	width: 50%;
+	min-width: 512px;
+	font-size: 0.75em;
+	text-align: center;
+	padding: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	background-color: rgba(25, 25, 25, 0.5);
+}
+
+.postFooter {
+	display: block;
+	font-size: 0.85em;
+	text-align: right;
+}
+
+#post {
+	text-align: justify;
+}
+
+#cookieBugger {
+	min-width: 256px;
+	position: -webkit-sticky; /* Safari */
+  	position: sticky;
+  	top: 0;
+	padding: 0.5em;
+	width: 50%;
+	margin: auto;
+	margin-top: 1em;
+	background-color: rgba(25, 25, 25, 0.5);
+	text-align: center;
+	font-size: 0.75em;
+	display: flex;
+	align-items: center;
+  	justify-content: space-between;
+  	vertical-align: middle;
+  	bottom: 0;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+h2 {
+	font-size: 0.80em;
+	text-align: center;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+table, th, td {
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+	border-collapse: separate;
+}
+
+th, td {
+	padding: 0.5em;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+th {
+	text-align: center;
+	font-weight: bold;
+	background-color: transparent;
+}
+
+
+tr:first-child {
+  background-color: rgba(25, 25, 25, 0.5);
+}
+
+tr {
+  background-color: rgba(25, 25, 25, 0.5);
+}
+
+tr:not(:first-child):hover {
+  background-color: #454545;
+  cursor: pointer;
+}
+
+button {
+	height: 2.5em;
+	color: rgb(200, 200, 200);
+	border: none;
+	background-color: rgba(25, 25, 25, 0.5);
+	font-size: 1em;
+}
+
+button::-moz-focus-inner {
+	border:0;
+}
+
+button:hover {
+	color: #FFFFFF;
+	background-color: rgba(100, 149, 237, 1);
+	font-weight: bold;
+	cursor: pointer;
+}
+
+
+#imgCarouselDiv {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	margin-top: 1em;
+}
+
+#imgCarousel {
+	width: 25%;
+	height: 25%;
+}
+
+#imgLogo {
+	width: 64px;
+	height: 64px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+}
+
+#cookieButton {
+	width: 32px;
+	height: 32px;
+	font-size: 1em;
+	margin-right: 1em;
+	margin-left: 1em;
+}
+
+#downloadButton {
+}
+
+#imgCookies {
+	width: 64px;
+	height: 64px;
+}
